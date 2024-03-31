@@ -71,7 +71,7 @@ export default function Landing() {
     <>
       <Header></Header>
       <div className='landing'>
-        <div>mmalo</div>
+        <div>kkkkk</div>
       </div>      
     </>
 )
