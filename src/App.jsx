@@ -4,8 +4,8 @@ import {
   Routes
  } from 'react-router-dom';
 import './App.css';
-import Landing from './components/landing/landing';
 import Login from './components/login/login';
+import Landing from './components/landing/landing';
 
 
 function App() {
@@ -22,7 +22,18 @@ function App() {
           exact path='/login'
           element={<Login />}
           />
-            
+          {/* <Route 
+          exact path='/register'
+          element={<Register />}
+          />
+          <Route 
+          exact path='/groups'
+          element={<Groups />}
+          />
+          <Route 
+          exact path='/sports'
+          element={<Sports />}
+          /> */}
         </Routes>
       </Router>
     </>

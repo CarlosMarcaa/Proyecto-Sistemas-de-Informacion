@@ -1,0 +1,66 @@
+.root {
+  position: relative;
+  width: 82.791px;
+  height: 149.9189px;
+  align-items: flex-start;
+}
+.rectangle8 {
+  position: absolute;
+  left: 0;
+  right: 75.6757%;
+  top: 0;
+  bottom: 47.2637%;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.rectangle10 {
+  position: absolute;
+  left: 37.8379%;
+  right: 37.8378%;
+  top: 47.2637%;
+  bottom: 0;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle12 {
+  position: absolute;
+  left: 75.6757%;
+  right: 0%;
+  top: 40.2985%;
+  bottom: 0;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle11 {
+  position: absolute;
+  left: 0.0001%;
+  right: 75.6756%;
+  top: 54.2289%;
+  bottom: 0;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle9 {
+  position: absolute;
+  left: 37.8378%;
+  right: 37.8379%;
+  top: 0;
+  bottom: 54.2289%;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}

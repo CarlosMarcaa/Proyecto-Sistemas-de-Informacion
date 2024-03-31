@@ -29,7 +29,6 @@ export default function Login() {
                             <NavLink to="/register" className='register-link'>Regístrate</NavLink>
                         </form>
                     </div>
-
                 </div>
             </div>
         </>
