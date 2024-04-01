@@ -14,12 +14,6 @@
     flex-direction: column;
 }
 
-.hero-logo {
-    height: 120px;
-    width: auto;
-    margin-bottom: 25px;
-}
-
 .landing-form-container {
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.98);
@@ -89,24 +83,6 @@ input {
     font-size: 18px;
 }
 
-/* .logo-container {
-    display: flex;
-    gap: 16px;
-}
-
-@media (max-width: 991px) {
-    .logo-container {
-    flex-wrap: wrap;
-    }
-}
-
-.logo {
-    aspect-ratio: 0.56;
-    object-fit: auto;
-    object-position: center;
-    width: 35px;
-}
-
 .navigation {
     display: flex;
     flex-basis: auto;
@@ -116,7 +92,7 @@ input {
     padding: 10px;
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     .navigation {
     flex-wrap: wrap;
     }

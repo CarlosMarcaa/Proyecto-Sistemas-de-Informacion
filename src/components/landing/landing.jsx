@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from './../header/header';
+import { NavLink } from 'react-router-dom';
 
 // const imageGallery = [
 //   { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/20463ea4f9e0d7ae4a586411c6c9a44dafa5c24f256c21e5d4c30931edc828e2?apiKey=807ecef27bf2490c882cc6ddc3e561c4&", alt: "" },
@@ -71,8 +72,10 @@ export default function Landing() {
     <>
       <Header></Header>
       <div className='landing'>
-        <div>kkkkk</div>
-      </div>      
+                <div className='column'>
+                  <div>kkkkkk</div>
+                </div>
+            </div>
     </>
-)
+  )
 }
