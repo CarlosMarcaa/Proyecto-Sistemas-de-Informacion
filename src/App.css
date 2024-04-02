@@ -44,3 +44,68 @@ body{
   border: #FD8204 3px solid;
   border-radius: 20px;
 }
+
+
+/** Landing **/
+.header-l{
+  margin-top: 10%;
+}
+.header-l .btn{
+  background-color: #FD8204;
+  color: white;
+  width: 10em;
+  justify-content: space-around;
+}
+.header-r{
+  margin-top: 5%;
+}
+.header-r .foto-inicio{
+  width: 98%;
+}
+
+.Text-inicio{
+  margin-top: 8%;
+  background-color: #FD8204;
+  color: white;
+  width: 100%;
+  padding: 3% 9%;
+  margin-bottom: 6%;
+}
+
+.Text-inicio h3{
+  font-size: 35px;
+  text-align: center;
+}
+
+.mision-vision{
+  margin-bottom: 10%;
+}
+.mision p, .mision h2, .vision p, .vision h2{
+  text-align: center;
+}
+.mision p, .vision p{
+  font-size: 20px;
+}
+.imagen-central{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-central .logo-central{
+  width: 30%;
+}
+
+@media (max-width: 450px) {
+  .imagen-central{
+    display: none;
+  }
+  .Text-inicio h3 {
+    font-size: 20px;
+  }
+  .header-r{
+    margin-top: 0;
+  }
+  .header-l .btn{
+    margin: auto;
+  }
+}
