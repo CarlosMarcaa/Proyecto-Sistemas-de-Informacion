@@ -73,7 +73,7 @@ export default function Landing() {
       <Header></Header>
       <div className='landing'>
                 <div className='column'>
-                  <div>kkkkkk</div>
+                  <div></div>
                 </div>
             </div>
     </>
