@@ -1,9 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
-/*import { React, useState, useEffect } from "react";
- import { Link } from "react-router-dom";*/
+import { React, useState, useEffect } from "react";
+ import { NavLink } from "react-router-dom";
 
 import unimetLogo from '/logo.svg'
+import Login from './Login'
 
 const Navbar = () => {
     return (
@@ -17,17 +18,17 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">Inicio</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Agrupaciones</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Selecciones Deportivas</a></li>
+                    <NavLink to='/' style={{ textDecoration: 'none' }}><li className="nav-item"><a className="nav-link active" aria-current="page" href="#">Inicio</a></li></NavLink>
+                    <NavLink to='/groups' style={{ textDecoration: 'none' }}><li className="nav-item"><a className="nav-link" href="#">Agrupaciones</a></li></NavLink>
+                    <NavLink to='/sports' style={{ textDecoration: 'none' }}><li className="nav-item"><a className="nav-link" href="#">Selecciones Deportivas</a></li></NavLink>
                 </ul>
 
-                <button className="d-flex btn" type="submit">
+                <NavLink to='/login' style={{ textDecoration: 'none' }}><button className="d-flex btn" type="submit">
                     Inicio de Sesión
-                </button>
-                <button className="d-flex btn btn-registro" type="submit">
+                </button></NavLink>
+                <NavLink to='/register' style={{ textDecoration: 'none' }}><button className="d-flex btn btn-registro" type="submit">
                     Registrarse
-                </button>
+                </button></NavLink>
                 </div>
             </div>
         </nav>
