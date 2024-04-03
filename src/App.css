@@ -1,42 +1,393 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body{
+  background: white;
+  color: black;
+
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+/** Navbar **/
+.navbar {
+  background: #ffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+  height: 70px;
+  color: black;
+}
+
+.navbar a{
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.navbar-brand{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.logo{
+  height: 50px;
+}
+
+.navbar .btn{  
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+.navbar .btn-registro{
+  border: #FD8204 3px solid;
+  border-radius: 20px;
+}
+
+
+/** Landing **/
+.header-l{
+  margin-top: 10%;
+}
+.header-l .btn{
+  background-color: #FD8204;
+  color: white;
+  width: 10em;
+  justify-content: space-around;
+}
+.header-r{
+  margin-top: 5%;
+}
+.header-r .foto-inicio{
+  width: 98%;
+}
+
+.Text-inicio{
+  margin-top: 8%;
+  background-color: #FD8204;
+  color: white;
+  width: 100%;
+  padding: 3% 9%;
+  margin-bottom: 6%;
+}
+
+.Text-inicio h3{
+  font-size: 35px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.mision-vision{
+  margin-bottom: 10%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.mision p, .mision h2, .vision p, .vision h2{
+  text-align: center;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.mision p, .vision p{
+  font-size: 20px;
+}
+.imagen-central{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-central .logo-central{
+  width: 30%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 450px) {
+  .imagen-central{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .Text-inicio h3 {
+    font-size: 20px;
+  }
+  .header-r{
+    margin-top: 0;
+  }
+  .header-l .btn{
+    margin: auto;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+
+.card{
+  padding: 3%; 
+  background-color: rgba(255, 255, 255, 0.80);
+}
+
+/** Login **/
+.fondo-login {
+  background-image: url('../public/campus-login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center 80%;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+.card-con-logo{
+  max-width: 25%;
+  min-width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.card-con-logo img{
+  width: 15%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.card-con-logo .card-body{
+  text-align: center;
+}
+.card-con-logo .btn-login{
+  background-color: #FD8204;
+  color: #ffff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  
+  font-size: 18px;
+}
+.card-con-logo .btn-login-registro{
+  color: #FD8204;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card-con-logo input, .card-con-logo select{
+border:#FD8204 2px solid;
+}
+
+@media (max-width: 450px) {
+  .card-con-logo {
+    max-width: 100%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   }
 }
 
-.card {
-  padding: 2em;
+
+/** Register **/
+.fondo-register {
+  background-image: url('../public/campus-register.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center 60%;
+}
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
 }
 
-.read-the-docs {
-  color: #888;
+.card-con-logo-registro {
+  max-width: 60%;
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-con-logo-registro img{
+  width: 15%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.card-con-logo-registro .btn-login{
+  background-color: #FD8204;
+  color: #ffff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  
+  font-size: 18px;
+}
+.card-con-logo-registro .btn-login-registro{
+  color: #FD8204;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card-con-logo-registro input, .card-con-logo-registro select{
+border:#FD8204 2px solid;
+}
+
+
+.fecha_nacimiento_inputs{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.form-select-mes{
+  width: 55%;
+}
+.form-control-year{
+  width: 25%;
+}
+.form-control-dia{
+  width: 15%;
+}
+
+.register .card-body{
+  text-align: left;
+}
+
+.register .imagen-derecha {
+  text-align: center;
+  align-content: center;
+}
+.register .imagen-derecha img{
+  width: 45%;
+  margin: auto;
+}
+
+@media (max-width: 450px) {
+  .register .imagen-derecha {
+    display: none;
+  }
+
+  .card-con-logo-registro {
+    max-width: 100%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .form-select-mes{
+    width: 45%;
+  }
+  .form-control-dia{
+    width: 20%;
+  }
+  .register .card-body {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+  }
+}
+/** Registro culminacion **/
+.card-con-logo-registro{
+  text-align: center;
+}
+.card-con-logo-registro .bienvenida-culminacion-registro{
+  margin-top: 2%;
+}
+.card-con-logo-registro{
+  margin: 15%;
+}
+
+
+/** Buscador Grande **/
+header{
+  margin: 1%;
+  background-image: url('../public/fondo_buscador.png');
+  height: 380px;
+  border-radius: 50px;
+  text-align: center;
+  align-content: center;
+}
+.input-group {
+  position: relative;
+  max-width: 70%;
+  margin: auto;
+}
+
+
+.input-group .form-control {
+  border: none;
+  box-shadow: none;
+  height: 50px;
+  border-radius: 80px;
+}
+
+.input-group-append {
+  position: absolute;
+  right: 0;
+  z-index: 920;
+  border-radius: 80px;
+  width: 15%;
+  margin-right: 1%;
+  margin-top: 0.8%;
+}
+
+.input-group-append .btn {
+  background-color: #FD8204;
+  color: #ffff;
+  border: none;
+  border-radius: 80px;
+  width: 100%;
+  margin:auto;
+}
+
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+@media (max-width: 450px) {
+  header{
+    height: 180px;
+    border-radius: 25px;
+    margin-top: 3%;
+  }
+  .input-group-append {
+    position: absolute;
+    right: 0;
+    z-index: 920;
+    border-radius: 80px;
+    width: 30%;
+    margin-right: 3%;
+    margin-top: 2%;
+  }
+  .input-group {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+/** Buscador pequeño **/
+.header-small{
+  height: 100px;
+}
+
+
+
+/** List Group**/
+.ListGroups{
+  margin-top: 2%;
+}
+.ListGroups .card {
+  padding: 0;
+  border-radius: 20px;
+  border: #FD8204 3px solid;
+}
+.ListGroups img {
+  border-radius: 16px 16px 30px 30px;
+  border-bottom: #FD8204 3px solid;
+  margin: 0;
+}
+.ListGroups .grupos-card{
+  padding: 0 15px;
+}
+.ListGroups .leer-mas{
+  color:#FD8204;
+}
+.ListGroups .titulo-card{
+  margin-bottom: 0;
+}
+.ListGroups p{
+  margin-bottom: 0;
+}
+.ListGroups .bi-star-fill{
+  margin-right: 3px;
+  color: #FD8204;
 }
