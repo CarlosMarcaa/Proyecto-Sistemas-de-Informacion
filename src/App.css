@@ -154,7 +154,7 @@ body{
   font-size: 18px;
 }
 
-.card-con-logo input{
+.card-con-logo input, .card-con-logo select{
 border:#FD8204 2px solid;
 }
 
@@ -168,3 +168,105 @@ border:#FD8204 2px solid;
   }
 }
 
+
+/** Register **/
+.fondo-register {
+  background-image: url('../public/campus-register.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center 60%;
+}
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.card-con-logo-registro {
+  max-width: 60%;
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-con-logo-registro img{
+  width: 15%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.card-con-logo-registro .btn-login{
+  background-color: #FD8204;
+  color: #ffff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  
+  font-size: 18px;
+}
+.card-con-logo-registro .btn-login-registro{
+  color: #FD8204;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card-con-logo-registro input, .card-con-logo-registro select{
+border:#FD8204 2px solid;
+}
+
+
+.fecha_nacimiento_inputs{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.form-select-mes{
+  width: 55%;
+}
+.form-control-year{
+  width: 25%;
+}
+.form-control-dia{
+  width: 15%;
+}
+
+.register .card-body{
+  text-align: left;
+}
+
+.register .imagen-derecha {
+  text-align: center;
+  align-content: center;
+}
+.register .imagen-derecha img{
+  width: 45%;
+  margin: auto;
+}
+
+@media (max-width: 450px) {
+  .register .imagen-derecha {
+    display: none;
+  }
+
+  .card-con-logo-registro {
+    max-width: 100%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .form-select-mes{
+    width: 45%;
+  }
+  .form-control-dia{
+    width: 20%;
+  }
+  .register .card-body {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+  }
+}

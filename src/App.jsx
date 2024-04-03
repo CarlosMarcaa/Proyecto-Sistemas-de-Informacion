@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Landing from '../src/components/Landing'
 import Login from '../src/components/Login'
+import Register from '../src/components/Register'
 import { 
   BrowserRouter as Router,
   Route,
@@ -23,11 +24,11 @@ function App() {
           exact path='/login'
           element={<Login />}
           />
-          {/* <Route 
+          <Route 
           exact path='/register'
           element={<Register />}
           />
-          <Route 
+          {/* <Route 
           exact path='/groups'
           element={<Groups />}
           />
