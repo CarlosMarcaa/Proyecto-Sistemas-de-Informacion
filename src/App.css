@@ -9,9 +9,6 @@ body{
   align-items: center;
 }
 
-
-
-
 /** Navbar **/
 .navbar {
   background: #ffff;
@@ -156,6 +153,7 @@ body{
   font-weight: 400;
   font-size: 18px;
 }
+
 .card-con-logo input{
 border:#FD8204 2px solid;
 }
@@ -169,3 +167,4 @@ border:#FD8204 2px solid;
     width: 80%;
   }
 }
+
