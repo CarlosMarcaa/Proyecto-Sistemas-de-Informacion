@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <Landing/>
-      {/*<Login/>*/}
+      {/*<Landing/>*/}
+      <Login/>
     </>
   )
 }
