@@ -108,6 +108,10 @@ body{
 }
 
 
+.card{
+  padding: 3%; 
+  background-color: rgba(255, 255, 255, 0.80);
+}
 
 /** Login **/
 .fondo-login {
@@ -270,3 +274,14 @@ border:#FD8204 2px solid;
     overflow-y: auto;
   }
 }
+/** Registro culminacion **/
+.card-con-logo-registro{
+  text-align: center;
+}
+.card-con-logo-registro .bienvenida-culminacion-registro{
+  margin-top: 2%;
+}
+.card-con-logo-registro{
+  margin: 15%;
+}
+

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Landing from '../src/components/Landing'
 import Login from '../src/components/Login'
-import Register from '../src/components/Register'
+import Register from '../src/components/RegisterC'
 import { 
   BrowserRouter as Router,
   Route,
