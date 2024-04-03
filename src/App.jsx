@@ -2,7 +2,9 @@ import { useState } from 'react'
 import './App.css'
 import Landing from '../src/components/Landing'
 import Login from '../src/components/Login'
-import Register from '../src/components/RegisterC'
+import Register from '../src/components/Register'
+import Groups from '../src/components/Groups'
+
 import { 
   BrowserRouter as Router,
   Route,
@@ -28,11 +30,11 @@ function App() {
           exact path='/register'
           element={<Register />}
           />
-          {/* <Route 
+          <Route 
           exact path='/groups'
           element={<Groups />}
           />
-          <Route 
+          {/*<Route 
           exact path='/sports'
           element={<Sports />}
           /> */}
