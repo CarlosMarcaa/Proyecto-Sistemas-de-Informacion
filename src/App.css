@@ -140,7 +140,7 @@ body{
   margin: auto;
   margin-bottom: 5%;
 }
-.card-body{
+.card-con-logo .card-body{
   text-align: center;
 }
 .card-con-logo .btn-login{
@@ -320,7 +320,7 @@ header{
 }
 
 .input-group-append .btn {
-  background-color: orange;
+  background-color: #FD8204;
   color: #ffff;
   border: none;
   border-radius: 80px;
@@ -357,4 +357,37 @@ header{
 /** Buscador pequeño **/
 .header-small{
   height: 100px;
+}
+
+
+
+/** List Group**/
+.ListGroups{
+  margin-top: 2%;
+}
+.ListGroups .card {
+  padding: 0;
+  border-radius: 20px;
+  border: #FD8204 3px solid;
+}
+.ListGroups img {
+  border-radius: 16px 16px 30px 30px;
+  border-bottom: #FD8204 3px solid;
+  margin: 0;
+}
+.ListGroups .grupos-card{
+  padding: 0 15px;
+}
+.ListGroups .leer-mas{
+  color:#FD8204;
+}
+.ListGroups .titulo-card{
+  margin-bottom: 0;
+}
+.ListGroups p{
+  margin-bottom: 0;
+}
+.ListGroups .bi-star-fill{
+  margin-right: 3px;
+  color: #FD8204;
 }
