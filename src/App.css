@@ -393,4 +393,109 @@ header{
 }
 
 
-/**  **/
+/** profile-group **/
+.profile-group .col-lg-6{
+  margin-bottom: 2rem;
+}
+.profile-group .img-profile{
+  text-align: end;
+}
+.profile-group img{
+  height: 350px;
+}
+.profile-group .ruta-grupo {
+  font-size: 15px;
+  font-weight: 300;
+}
+.profile-group h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.profile-group .bi-star-fill{
+  color: #FD8204;
+  font-size: 20px;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+.profile-group .btn-profile-group{
+  background-color: #FD8204;
+  color: #ffff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 40%;
+  font-size: 18px;
+}
+.profile-group a, .profile-group a:hover{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.profile-group .title-collapse{
+  border-bottom: #FD8204 2px solid;
+  padding: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+.profile-group .title-collapse i{
+  margin-left: auto;
+}
+.profile-group .collapse{
+  margin: 15px 0;
+}
+.profile-group .table{
+  border: #FD8204  2.5px solid;
+  border-radius: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.profile-group .puntuacion-general{
+  margin-bottom: 5%;
+}
+.profile-group .puntuacion-total{
+  text-align: end;
+  align-content: center;
+}
+.profile-group .puntuacion-total h1{
+  color: #FD8204;
+  font-weight: 500;
+}
+.profile-group .puntuacion-estrellas{
+  align-content: center;
+}
+.profile-group h5{
+  margin: 0;
+  margin-top: -8px;
+}
+.profile-group .top-comentario .col-lg-6{
+  margin: 0;
+}
+.profile-group .top-comentario .fecha{    
+  text-align: end;
+  color: #918F8F;
+}
+.profile-group .comentar textarea{
+  border: #FD8204 2px solid;
+}
+.profile-group .comentar .btn-profile-group{
+  background-color: #FD8204;
+  color: #ffff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  font-size: 18px;
+}
+
+@media (max-width: 450px) {
+  .profile-group .puntuacion-total {
+    text-align: justify;
+    align-content: center;
+  }
+  .profile-group .top-comentario .fecha {
+    text-align: justify;
+  }
+
+}
