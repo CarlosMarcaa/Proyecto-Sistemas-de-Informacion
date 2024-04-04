@@ -1,8 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
-/*import { React, useState, useEffect } from "react";
-import { Link } from "react-router-dom";*/
-
 import Navbar from './Navbar'
 import unimetLogo from '/logo.svg'
 import React, { useState } from 'react'
@@ -32,8 +27,8 @@ const Login = () => {
                                     <input type="password" className="form-control" id="floatingPassword" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)}/>
                                     <label htmlFor="floatingPassword">Contraseña</label>
                                 </div>
-                                <a href="#" className="btn btn-login" onClick={login}>Iniciar Sesion</a>
-                                <a href="#" className="btn-login-registro">Registrate</a>
+                                <a className="btn btn-login" onClick={login}>Iniciar Sesion</a>
+                                <a href="/register" className="btn-login-registro">Registrate</a>
                             </div>
                         </div>
                     </div>
@@ -43,12 +38,14 @@ const Login = () => {
         </>
     )
     async function login(){
+        var aux = 0
         try{
             await firebase.login(email, password)
         } catch(error){
+            aux = 1
             alert(error.message)
-    
-    }
+        } 
+        if (aux == 0) { window.location.href = '/dashboard';}
 }
 }
 

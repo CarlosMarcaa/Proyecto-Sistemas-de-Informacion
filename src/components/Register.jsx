@@ -1,8 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
-/*import { React, useState, useEffect } from "react";
-import { Link } from "react-router-dom";*/
-
 import Navbar from './Navbar'
 import unimetLogo from '/logo.svg'
 import React, { useState } from 'react'
@@ -15,6 +10,7 @@ const Register = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [confirmpassword, setConfirmpassword] = useState('')
+    const [gender, setGender] = useState('')
     const [day, setDay] = useState('')
     const [month, setMonth] = useState('')
     const [year, setYear] = useState('')
@@ -108,13 +104,15 @@ const Register = () => {
         </>
     )
     async function onRegister(){
+        var aux = 0
         try{
            await firebase.register(name, lastname, email, password)
-           //aqui hay que poner el link al segundo registro
         } catch(error){
+            aux = 1
             alert(error.message)
         }
-    }
+        if (aux == 0) { window.location.href = '/registerc';}
+    }   
 }
 
 export default Register

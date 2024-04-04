@@ -1,16 +1,12 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
 import { React, useState, useEffect } from "react";
- import { NavLink } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 import unimetLogo from '/logo.svg'
-import Login from './Login'
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href='/'>
                 <img src={unimetLogo} className="logo" alt="Unimet logo" />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

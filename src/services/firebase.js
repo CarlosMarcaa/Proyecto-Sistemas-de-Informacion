@@ -12,10 +12,6 @@ const firebaseConfig = {
   appId: "1:1086619926283:web:fa22edf350020d26462c0e"
 };
 
-// const app = initializeApp(firebaseConfig);
-// export const db = getFirestore(app);
-// export const auth = getAuth(app);
-
 class Firebase {
   constructor() {
     this.app = initializeApp(firebaseConfig);
@@ -32,7 +28,7 @@ class Firebase {
 
   async register(name, lastname, email, password) {
     await createUserWithEmailAndPassword(this.auth, email, password);
-    return this.auth.currentUser.updateProfile({
+    return currentUser.updateProfile(this.auth, {
       displayName: name,
       displayLastname: lastname,
       photoURL: "https://i.pravatar.cc/150?img=1"
