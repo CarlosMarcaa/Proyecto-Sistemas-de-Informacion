@@ -497,5 +497,48 @@ header{
   .profile-group .top-comentario .fecha {
     text-align: justify;
   }
+}
 
+/** profile-user **/
+.profile-user .top-profile-user img{
+  width: 80%;
+}
+.profile-user .top-profile-user .imagen-profile{
+  text-align: end;
+}
+.profile-user .top-profile-user .texto-profile h2,
+.profile-user .top-profile-user .texto-profile h5{
+  margin: 0;
+  align-content: center;
+}
+.profile-user .top-profile-user .texto-profile {
+  align-content: center;
+}
+.profile-user .top-profile-user .btn-profile-user {
+  background-color: #FD8204;
+  color: #ffff;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  /* width: 100%; */
+  /* font-size: 18px; */
+  padding: 2% 8%;
+}
+
+.profile-user .table{
+  border: #FD8204  2.5px solid;
+  border-radius: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.profile-user .grupos .btn-profile-user {
+  background-color: #FD8204;
+  color: #ffff;
+  /* margin-top: 4%; */
+  margin-bottom: 2%;
+  /* width: 100%; */
+  /* font-size: 18px; */
+  /* padding: 2% 8%; */
 }

@@ -4,14 +4,21 @@ const ProfileUser = () => {
     return (
         <>
             <Navbar/>
-            <div className="container">
-                <div className="row">
+            <div className="container profile-user">
+                <div className="row my-5">
                     <div className="col-lg-5">
-                        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://dummyimage.com/50x50/dee2e6/6c757d.jpg" alt="..." />
-                        <h2>Juan Perez</h2>
-                        <h5>Ing. de Sistemas</h5>
+                        <div className="row top-profile-user">
+                            <div className="col-lg-6 imagen-profile">
+                                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://dummyimage.com/200x200/dee2e6/6c757d.jpg" alt="..." />
+                            </div>
+                            <div className="col-lg-6 texto-profile">
+                                <h2>Juan Perez</h2>
+                                <h5>Ing. de Sistemas</h5>
+                                <a href="#" className="btn btn-profile-user">Editar perfil</a>
+                            </div>
+                        </div>
                         
-                        <a href="#" className="btn btn-login">Editar perfil</a>
+                        
                     </div>
                     <div className="col-lg-7">
                         <table className="table">
@@ -36,9 +43,9 @@ const ProfileUser = () => {
 
                 </div>
                 <div className="row gx-4 gx-lg-5">
-                    <div className="col-">
+                    <div className="col-lg-12 grupos">
                         <h2>Agrupaciones y Selecciones</h2>
-                        <a href="#" className="btn btn-login">Unirte a un nuevo grupo</a>
+                        <a href="#" className="btn btn-profile-user">Unirte a un nuevo grupo</a>
                     </div>
                     <div className="col-md-3 mb-5 grupos-card">
                         <div className="card h-100">

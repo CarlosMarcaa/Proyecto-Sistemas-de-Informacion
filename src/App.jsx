@@ -3,7 +3,7 @@ import './App.css'
 import Landing from '../src/components/Landing'
 import Login from '../src/components/Login'
 import Register from '../src/components/Register'
-import Groups from '../src/components/ProfileGroup'
+import Groups from '../src/components/ProfileUser'
 
 import { 
   BrowserRouter as Router,
