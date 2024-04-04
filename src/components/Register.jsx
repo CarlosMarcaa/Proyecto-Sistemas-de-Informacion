@@ -39,8 +39,8 @@ const Register = () => {
                                             <input type="password" className="form-control" id="floatingPassword" placeholder="Password"/>
                                             <label htmlFor="floatingPassword">Confirmar contraseña</label>
                                         </div>
-                                        <div class="form-floating mb-3">
-                                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                        <div className="form-floating mb-3">
+                                            <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                                                 <option selected>Género</option>
                                                 <option value="1">Hombre</option>
                                                 <option value="2">Mujer</option>
@@ -55,8 +55,8 @@ const Register = () => {
                                                 <input type="text" className="form-control" id="floatingInput" placeholder="name@example.com"/>
                                                 <label htmlFor="floatingInput">Día</label>
                                             </div>
-                                            <div class="form-floating mb-3 form-select-mes">
-                                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                            <div className="form-floating mb-3 form-select-mes">
+                                                <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                                                     <option selected>Mes</option>
                                                     <option value="1">Enero</option>
                                                     <option value="2">Febrero</option>
