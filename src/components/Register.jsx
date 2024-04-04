@@ -47,6 +47,7 @@ const Register = () => {
                                             <input type="password" className="form-control" id="floatingPassword" placeholder="Password" value={confirmpassword} onChange={e => setConfirmpassword(e.target.value)}/>
                                             <label htmlFor="floatingPassword">Confirmar contraseña</label>
                                         </div>
+
                                         <div class="form-floating mb-3">
                                             <select class="form-select" id="floatingSelect" aria-label="Floating label select example" value={gender} onChange={e => setGender(e.target.value)}>
                                                 <option selected>Género</option>
@@ -63,6 +64,7 @@ const Register = () => {
                                                 <input type="text" className="form-control" id="floatingInput" placeholder="name@example.com" value={day} onChange={e => setDay(e.target.value)}/>
                                                 <label htmlFor="floatingInput">Día</label>
                                             </div>
+
                                             <div class="form-floating mb-3 form-select-mes">
                                                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example" value={month} onChange={e => setMonth(e.target.value)}>
                                                     <option selected>Mes</option>

@@ -15,12 +15,12 @@ const ListGroups = () => {
                         <div className="card-body">
                             <h5 className="fw-bolder titulo-card">Nombre Agrupacion</h5>
                             <h6 className="">Categoria</h6>
-                            <div class="d-flex small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
+                            <div className="d-flex small text-warning mb-2">
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
                                 Praesent bibendum iaculis lectus ut efficitur... <span className="leer-mas">Leer más.</span></p>
@@ -37,12 +37,12 @@ const ListGroups = () => {
                         <div className="card-body">
                             <h5 className="fw-bolder titulo-card">Nombre Agrupacion</h5>
                             <h6 className="">Categoria</h6>
-                            <div class="d-flex small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
+                            <div className="d-flex small text-warning mb-2">
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
                                 Praesent bibendum iaculis lectus ut efficitur... <span className="leer-mas">Leer más.</span></p>
@@ -59,12 +59,12 @@ const ListGroups = () => {
                         <div className="card-body">
                             <h5 className="fw-bolder titulo-card">Nombre Agrupacion</h5>
                             <h6 className="">Categoria</h6>
-                            <div class="d-flex small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
+                            <div className="d-flex small text-warning mb-2">
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
                                 Praesent bibendum iaculis lectus ut efficitur... <span className="leer-mas">Leer más.</span></p>
@@ -81,12 +81,12 @@ const ListGroups = () => {
                         <div className="card-body">
                             <h5 className="fw-bolder titulo-card">Nombre Agrupacion</h5>
                             <h6 className="">Categoria</h6>
-                            <div class="d-flex small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
+                            <div className="d-flex small text-warning mb-2">
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
                                 Praesent bibendum iaculis lectus ut efficitur... <span className="leer-mas">Leer más.</span></p>
@@ -103,12 +103,12 @@ const ListGroups = () => {
                         <div className="card-body">
                             <h5 className="fw-bolder titulo-card">Nombre Agrupacion</h5>
                             <h6 className="">Categoria</h6>
-                            <div class="d-flex small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
+                            <div className="d-flex small text-warning mb-2">
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
+                                <div className="bi-star-fill"></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
                                 Praesent bibendum iaculis lectus ut efficitur... <span className="leer-mas">Leer más.</span></p>

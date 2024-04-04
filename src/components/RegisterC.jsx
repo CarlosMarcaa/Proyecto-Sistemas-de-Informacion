@@ -31,6 +31,7 @@ const RegisterC = () => {
                                             <input type="text" className="form-control" id="floatingInput" placeholder="20181110001" value={idc} onChange={e => setIdc(e.target.value)}/>
                                             <label htmlFor="floatingInput">Carnet</label>
                                         </div>
+
                                         <div class="form-floating mb-3">
                                             <select class="form-select" id="floatingSelect" aria-label="Floating label select example" value={carrer} onChange={e => setCarrer(e.target.value)}>
                                                 <option selected>Carrera</option>
